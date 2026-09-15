@@ -490,3 +490,81 @@ footer p {
 .project-results strong {
     font-weight: 600;
 }
+
+/* Education Items */
+
+.education-item {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    padding: 25px 30px;
+    background-color: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-left: 4px solid #00a8c6;
+    border-radius: 12px;
+    text-align: left;
+    transition: 0.3s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.education-item h3 {
+    color: #1f2937;
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.education-item p {
+    color: #6b7280;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.education-item p:last-child {
+    color: #00a8c6;
+    font-weight: bold;
+}
+
+
+/* Leadership */
+
+#leadership {
+    background-color: #f5f7fa;
+}
+
+.leadership-card {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-left: 4px solid #00a8c6;
+    border-radius: 12px;
+    text-align: left;
+    transition: 0.3s ease;
+}
+
+.leadership-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.leadership-card h3 {
+    color: #1f2937;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.leadership-card .leadership-year {
+    color: #00a8c6;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.leadership-card p {
+    color: #6b7280;
+    font-size: 15px;
+    line-height: 1.7;
+}
